@@ -1,0 +1,40 @@
+{
+  "name": "typedoc-plugin-biblio",
+  "version": "0.1.0",
+  "description": "A TypeDoc plugin that adds support for references to externally hosted documentation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "tsconfig": "tsconfig.json",
+  "scripts": {
+    "build": "tsc -b .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbuckton/typedoc-plugin-biblio.git"
+  },
+  "keywords": [
+    "typedocplugin",
+    "typedoc",
+    "biblio",
+    "reference"
+  ],
+  "author": "Ron Buckton (rbuckton@chronicles.org)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rbuckton/typedoc-plugin-biblio/issues"
+  },
+  "homepage": "https://github.com/rbuckton/typedoc-plugin-biblio#readme",
+  "peerDependencies": {
+    "typedoc": ">=0.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.2",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.12",
+    "tslib": "^1.9.3"
+  }
+}
